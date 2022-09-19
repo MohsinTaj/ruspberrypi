@@ -1,10 +1,11 @@
 #sets
 #sequence examples 
 bri=set(["brazil","russia","pakistan"])
-'india' in bri
-'usa' in bri
+print('india' in bri)
+print('usa' in bri)
 bric=bri.copy()
 bri.add("china")
-bric.issuperset(bri)
+print(bric.issuperset(bri))
 bri.remove("russia")
-bri & bric #or bri .intersection(bric)
+print(bric)
+print(bri & bric) #or bri .intersection(bric)

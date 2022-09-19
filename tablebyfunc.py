@@ -5,4 +5,5 @@ def table(a):
        print(a," * ", i," = ",a*i)
 
 
-table(3)
+x=int(input("enter a no: "))
+table(x)

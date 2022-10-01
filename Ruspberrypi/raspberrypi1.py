@@ -1,4 +1,4 @@
-import RPi as GPIO #import raspiberry pi gpio pins
+import RPi.GPIO as GPIO #import raspiberry pi gpio pins
 from time import sleep
 GPIO.setwarnings(False)
 GPIO.setmode(GPIO.BOARD)
